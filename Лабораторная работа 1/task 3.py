@@ -12,4 +12,5 @@ Disksize = 1.44 * 1024 * 1024
 
 books = Disksize // Booksize
 
-print("Количество книг, помещающихся на дискету:",int(books))
+print("Количество книг, помещающихся на дискету:",round(books))
+
